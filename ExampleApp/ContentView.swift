@@ -8,6 +8,11 @@
 
 import SwiftUI
 
+struct Container {
+    let value1: String
+    let value2: String
+}
+
 struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
