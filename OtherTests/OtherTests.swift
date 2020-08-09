@@ -8,6 +8,7 @@
 
 import XCTest
 @testable import ExampleApp
+import SharedTestUtils
 
 class OtherTests: XCTestCase {
     func testExample() throws {

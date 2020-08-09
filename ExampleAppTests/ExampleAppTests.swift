@@ -8,11 +8,7 @@
 
 import XCTest
 @testable import ExampleApp
-
-func assertContainerWorks() {
-    let container = Container(value1: "abc", value2: "abc")
-    XCTAssertEqual(container.value1, container.value2)
-}
+import SharedTestUtils
 
 class ExampleAppTests: XCTestCase {
     func testExample() throws {
